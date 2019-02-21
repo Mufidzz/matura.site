@@ -1,0 +1,459 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: #ffb400;
+}
+
+.page-1
+{
+  width: 100%;
+  height: 100vh;
+
+} 
+
+.background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99999;
+    
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.page-1 > .background > .bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+    
+    height: 100vh;
+    width: 100%;  
+    
+    background-size: 100% !important;
+    
+    transition: 200ms linear;
+    -webkit-transition: 200ms linear;
+    -moz-transition: 200ms linear;
+}
+
+.page-1:hover > .background > .bg
+{
+    background-size: 115% !important;
+}
+
+.bg-a
+{
+    background: url("../img/index-bg-1.jpg") no-repeat center; 
+    display: none;
+}
+
+.bg-b
+{
+    background: url("../img/index-bg-2.jpg") no-repeat center;  
+    display: none;
+}
+
+.bg-c
+{
+    background: url("../img/index-bg-3.jpg") no-repeat center;
+    display: none;
+}
+
+
+
+.page-1 > nav
+{
+  width: 100%;
+  height: 120px;
+    
+    transition: 700ms;
+    -moz-transition: 700ms;
+    -webkit-transition: 700ms;
+    
+}
+
+.page-1 > nav > .nav-head
+{
+  height: 30px;
+  background-color: #ffb400;
+  text-align: center;
+    color: #fff;
+}
+
+.page-1 > nav > .nav-head > label[for="nav-head"]
+{
+  line-height: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+    font-size: 12px
+
+}
+
+.page-1 > nav > .nav-body 
+{
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: solid 2px #ffb400;
+}
+
+.page-1 > nav > .nav-body > .content-logo
+{
+  height: 90px;
+  width: 160px;
+
+  background: url("../img/logo-main-wh.png") no-repeat center;
+    background-size: 60%;
+}
+
+.page-1 > nav > .nav-body > .content-btn
+{
+  float: right;
+
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+
+}
+
+.page-1 > nav > .nav-body > .content-btn  > a
+{
+    text-align: center;
+
+    display: block;
+    
+    margin-top: 27.5px;
+    border-radius: 99px;
+    
+    height: 35px;
+    width: 120px;
+    line-height: 32px;
+
+    text-decoration: none;
+    
+    color: #fff;
+    background-color: none;
+    
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+}
+
+.page-1 > nav > .nav-body > .content-btn  > a:hover
+{
+    background-color: #ffb400;
+}
+
+
+.page-1 > nav > .nav-body > .content-btn  > .btn-social
+{
+    height: 90px;
+    width: 100px;
+    text-align: center;
+}
+
+.page-1 > nav > .nav-body > .content-btn  > .btn-social > a
+{
+    line-height: 90px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 24px;
+    
+    transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+}
+
+/* Nav End ===================================== */
+
+.page-1 > .content-middle
+{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 2.5%;
+}
+
+.page-1 > .content-middle > .content-text
+{
+
+    width: 80%;
+    height: 370px;
+    
+    position: relative;
+
+}
+
+.page-1 > .content-middle > .content-text > .content
+{
+    width: 100%;
+    height: 100%;   
+    
+    cursor: pointer;
+}
+
+.page-1 > .content-middle > .content-text > .content-a
+{
+    background:url("../img/logo-mid-1-wh.png") no-repeat center;
+    background-size: 45%;
+    display: none;
+
+}
+
+.page-1 > .content-middle > .content-text > .content-b
+{
+    background:url("../img/logo-mid-2-wh.png") no-repeat center;
+    background-size: 30%;
+    display: none;
+}
+
+.page-1 > .content-middle > .content-text > .content-c
+{
+    background:url("../img/logo-mid-3-wh.png") no-repeat center;
+    background-size: 50%;
+    display: none;
+    
+}
+
+
+.page-1 > .content-middle > .arrow > i
+{
+    line-height: 370px; 
+    cursor: pointer;
+}
+
+
+.page-1 > .content-bottom
+{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    display: flex;
+    justify-content: space-between;
+    
+    color: #fff;
+    position: relative;
+    margin-top: 25px;
+    bottom: 15px !important;
+}
+
+.page-1 > .content-bottom > .caption
+{
+    padding-left: 15px !important;
+    padding: 5px 0;
+    border-left: solid 2px #ffb400;
+}
+
+.page-1 > .content-bottom > .caption > label[for="caption"]
+{
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.active 
+{
+    display: block !important;
+}
+
+/* Page 2 Start =========================== */
+
+.page-2
+{
+    height: 100vh;
+    width: 100%;
+    
+    background: url("../img/index-p2-bg-1.jpg")no-repeat center;
+    background-size: cover;
+}
+
+.page-2 > .p2-content-middle
+{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 72px;
+    
+    position: relative;
+    top: calc(50vh - 145px);
+}
+
+.page-2 > .p2-content-middle > .p2-content-text
+{
+
+    width: 80%;
+    height: 370px;
+    
+    position: relative;
+
+}
+
+.page-2 > .p2-content-middle > .p2-content-text > .p2-content
+{
+    width: 100%;
+    height: 100%;
+}
+
+.page-2 > .p2-content-middle > .p2-content-text
+{
+    background:url("../img/logo-mid-1-wh.png") no-repeat center;
+    background-size: 45%;
+}
+
+
+.page-2 > .p2-content-middle > .arrow > i
+{
+    line-height: 370px; 
+    cursor: pointer;
+}
+
+.page-3
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.page-3 > .p3-content
+{
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background-color: #fff;
+}
+
+.page-3 > .footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 25vh;
+    
+    background-color: #ffb400;
+    
+
+}
+
+.page-3 > .footer > .footer-content
+{
+    display: flex;
+    justify-content: space-around;
+    
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 10%;
+    
+    font-size: 12px;
+}
+ 
+.page-3 > .footer > .footer-content > .address > label[for="title"]
+{
+    font-size: 16px;
+}
+
+.page-3 > .footer > .footer-content > .help > a
+{
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.page-3 > .footer > .footer-content > .help > label[for="title"]
+{
+    font-size: 16px;
+}
+
+.page-3 > .footer > .footer-content > .connect > a
+{
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.page-3 > .footer > .footer-content > .connect > label[for="title"]
+{
+    font-size: 16px;
+}
+
+.page-3 > .footer > .footer-content > .progress > label[for="title"]
+{
+    font-size: 16px;
+}
+
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffb400;
+    z-index: 9999;
+}
+
+
+.sticky > .nav-head
+{
+    display: none;
+}
+
+.sticky > .nav-body
+{
+    margin-top: 15px;
+}
+
+.sticky > .nav-body > .content-btn  > a:hover
+{
+    border-left: solid 6px #fff;
+}
+
+.sticky > .nav-body > .content-btn  > .btn-social > a:hover
+{
+    border-bottom:  solid 2px #fff;
+}
+
+.notif
+{
+    position: fixed;
+    top: 10vh;
+    left: 0px;
+    
+    z-index: 99999;
+    height: 30vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.notif > .alert
+{
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    padding-top: 10vh;
+    background-color: rgba(0,0,0,.8);
+    border: solid 2px #fff;
+}

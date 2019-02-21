@@ -1,0 +1,347 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: rgb(245,245,245);
+    background-size: cover;
+}
+
+.header
+{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background: url("../img/index-bg-3-blur.jpg") no-repeat 0 80%;
+    background-size: cover;
+    z-index: 0;
+}
+
+.header > .footer
+{
+    position: relative;
+    top: 135px;
+    height: 45px;
+    background-color: rgb(30,30,30);
+    
+    border-top: solid 3px #ffb400;
+    padding-left: 25%;
+}
+
+.header > .footer > .navigate > a
+{
+    line-height: 45px;
+    color: #fff;
+    
+    text-decoration: none;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: solid #ffb400;
+    border-right: solid rgba(255,180,0,0);
+    
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.header > .footer > .navigate > a:hover
+{
+    border-bottom: solid #ffb400;
+    border-left: solid rgba(255,180,0,0);
+}
+
+.header > .footer > .navigate > a:first-child
+{
+    margin-left: 0px;
+}
+
+
+.header > .footer > .navigate > a > i
+{
+    margin-right: 5px;
+    line-height: 45px;
+    color: #ffb400;
+}
+
+
+.content-container
+{
+    width: 100%;
+    min-height: 60%;
+    
+    padding-right: 5%;
+    
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content.left 
+{
+    position: absolute;
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+    min-height:  80%;
+    top: 10px;
+    
+    transition: .1s;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    
+    
+}
+
+.left > .write-container
+{   
+    padding-bottom: 15px;
+    width: 85%;
+    
+    margin-top: 15px;
+    
+}
+
+.left > .write-container > label[for="title"]
+{   
+    margin-left: -5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+    display: block;
+    
+}
+
+.left > .write-container > .write
+{
+    
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    
+}
+
+.left > .write-container > a
+{   
+    font-size: 13px;
+    
+    display: block;
+    float: right;
+    
+    text-decoration: none;
+    color: #000;
+    
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    
+}
+
+.left > .write-container > a:hover
+{   
+    margin-right: 5px;
+}
+
+
+.content-container > .content.right
+{
+    padding-top: 25px;
+    position: relative;
+    width: 75%;
+    min-height:90%;
+    
+    left: 25%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-container > .content.right > .feed-container
+{
+    width: 74%;
+}
+
+.content-container > .content.right > .feed-container > .feed-circle
+{
+    background-color: #ffb400;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.content-container > .content.right > .feed-container > label[for="timeline"]
+{  
+    font-size: 10px;
+    line-height: 10px;
+    display: inline-block;
+}
+
+.content-container > .content.right > .feed-container > .feed-line
+{
+    
+    padding-left: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+    border-left: dashed 2px #ffb400;
+}
+
+.content-container > .content.right > .feed-container > .feed-line > .feed
+{
+    background-color: #fff;
+    width: 100%;
+    padding-top: 5px!important;
+    padding: 15px;
+    
+    border-top: solid 5px #ffb400;
+}
+
+.content-container > .content.right > .feed-container >.feed-line > .feed > label[for="title"]
+{
+    font-size: 22px;
+}
+
+.content-container > .content.right > .feed-container >.feed-line > .feed > label[for="says"]
+{
+    font-size: 12px;
+}
+
+.content-container > .content.right > .feed-container >.feed-line > .feed > .content
+{   
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.content-container > .content.right > .feed-container >.feed-line > .feed > form > .content
+{   
+    width: calc(100% - 15px);
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    
+    resize: none;
+    overflow: hidden;
+    
+    border-bottom: solid 1px rgb(240,240,240);
+    border-left: double 1px #ffb400;
+    
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+}
+
+.content-container > .content.right > .feed-container >.feed-line > .feed > form > .btn
+{   
+    width: 100px;
+    height: 24px;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    
+    color: #fff;
+    background-color: #ffb400;
+    
+    border-bottom: solid 3px #000;
+    
+}
+
+.content-container > .content.right > .mail-container
+{
+    overflow: auto;
+    
+    width: 25%;
+    height: 80%;
+}
+
+.content-container > .content.right > .mail-container > label[for="mail"]
+{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.content-container > .content.right > .mail-container > label[for="mail"] > i
+{
+    font-size: 18px;
+    line-height: 30px;
+    
+    margin-right: 5px;
+    
+    color: #ffb400;
+}
+
+.content-container > .content.right > .mail-container > .mail
+{
+    min-height: 85px;
+    background-color: rgba(255,180,0,.8);
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-bottom: 10px;
+    
+    cursor: pointer;
+}
+
+.content-container > .content.right > .mail-container > .mail > label[for="title"]
+{
+    color: #fff;
+    
+    font-size: 14px;
+    display: block;
+    max-height: 100%;
+    
+    white-space: nowrap;
+    
+    overflow: hidden;
+    
+    border-bottom: solid 2px #fff;
+    padding-bottom: 2.5px;
+    margin-bottom: 10px;
+    
+}
+
+.content-container > .content.right > .mail-container > .mail > .mail-detail
+{
+    color: #fff;
+    
+    font-size: 12px;
+    display: block;
+    max-height: 100%;
+    
+    overflow: hidden;
+    
+    padding-left: 10px;
+}
+
+.content-container > .content.right > .mail-container > .mail > .mail-detail > p
+{
+    line-height: 20px;
+}
+
+.content-container > .content.right > .mail-container > .mail.readed
+{
+    height: 85px;
+    background-color: rgba(255,180,0,.5);
+    margin-bottom: 5px;
+}
+
+
+.sticky
+{
+    position: fixed !important;
+    top: 5px !important;
+    z-index: 9999;
+}

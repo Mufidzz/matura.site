@@ -1,0 +1,128 @@
+
+usercard
+{
+    height: 350px;
+    width: 85%;
+    
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    
+    padding: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    background-color: #fff;
+    
+    border-bottom: solid 3px #ffb400;
+    border-top: solid 3px #ffb400;
+    border-left: solid 3px #fff;
+    border-right: solid 3px #fff;
+        
+    cursor: pointer;
+    
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+}
+
+usercard:hover
+{
+    border-bottom: solid 3px #fff;
+    border-top: solid 3px #fff;
+    border-left: solid 3px #ffb400;
+    border-right: solid 3px #ffb400;
+    
+    /*height: 380px;*/
+}
+
+usercard > img 
+{
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 50%;
+    
+    margin-bottom: 15px;
+    
+}
+
+usercard > label[for="name"]
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+usercard > label[for="univ"]
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+usercard > .bottom-info
+{
+    position: relative;
+    top: 10px;
+    bottom: 0px !important;
+    height: calc(50% - 10px);
+    
+    border-top: solid .5px rgb(240,240,240);
+    
+    padding: 5px;
+    
+    overflow-y: auto;
+}
+
+usercard > .bottom-info > .content
+{
+    text-align: left;
+    height: 85%;
+    overflow-y: auto;
+    font-size: 12px;
+    padding: 5px
+}
+
+usercard > .bottom-info > .footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    
+    font-size: 12px;
+}
+
+usercard > .hv
+{
+    
+    background-color: #ffb400;
+    height: 0px;
+    
+    width: 100%;
+    
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+}
+
+usercard:hover > .hv
+{
+    height: 30px;
+}
+
+usercard > .hv > label
+{
+    font-size: 0px;
+    line-height: 30px;
+    color: #fff;
+    
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+}
+
+usercard:hover > .hv > label
+{
+    font-size: 14px;
+}
+
+

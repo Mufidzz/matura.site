@@ -1,0 +1,190 @@
+{
+ AID: "1", 
+ ID: "Fidz", 
+ PwordHash: "$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad", 
+ Bio: &Bio{
+        Nama: "Mufid Zukhruf Bahtiar", 
+        POB: "Lumajang", 
+        DOB: &Date{
+            DD: "14",
+            MM: "03",
+            YYYY: "2000"},
+        AlamatA: "Paiton",
+        AlamatB: "Malang",
+        TahunLulus:"2018"
+        },
+ Instansi: &Instansi{
+        Status: "1",
+        Instansi: "Universitas Muhammadiyah Malang"
+ },
+ Media: &Media{
+        Facebook: "1000000482637",
+        Line    : "Fidz",
+        Whatsapp: "082273543781"
+ }
+}
+
+
+{
+ AID: "1", 
+ ID: "Fidz", 
+ PwordHash: "$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad", 
+ Bio: &Bio{
+        Nama: "Mufid Zukhruf Bahtiar", 
+        POB: "Lumajang", 
+        DOB: &Date{
+            DD: "14",
+            MM: "03",
+            YYYY: "2000"},
+        AlamatA: "Paiton",
+        AlamatB: "Malang",
+        TahunLulus:"2018"
+        },
+ Instansi: &Instansi{
+        Status: "1",
+        Instansi: "Universitas Muhammadiyah Malang"
+ },
+ Media: &Media{
+        Facebook: "1000000482637",
+        Line    : "Fidz",
+        Whatsapp: "082273543781"
+ }
+}
+
+{
+ "AID": "1", 
+ "ID": "Fidz", 
+ "PwordHash": "$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad", 
+ "Bio":{
+        "Nama": "Mufid Zukhruf Bahtiar", 
+        "POB": "Lumajang", 
+        "DOB": {
+            "DD": "14",
+            "MM": "03",
+            "YYYY": "2000"},
+        "AlamatA": "Paiton",
+        "AlamatB": "Malang",
+        "TahunLulus":"2018"
+        },
+ "Instansi": {
+        "Status": "1",
+        "Instansi": "Universitas Muhammadiyah Malang"
+ },
+ "Media": {
+        "Facebook": "1000000482637",
+        "Line"    : "Fidz",
+        "Whatsapp": "082273543781"
+ }
+}
+
+
+{ "User": [
+ {
+ "AID": "1", 
+ "ID": "Fidz", 
+ "PwordHash": "$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad", 
+ "Bio":{
+        "Nama": "Mufid Zukhruf Bahtiar", 
+        "POB": "Lumajang", 
+        "DOB": {
+            "DD": "14",
+            "MM": "03",
+            "YYYY": "2000"},
+        "AlamatA": "Paiton",
+        "AlamatB": "Malang",
+        "TahunLulus":"2018"
+        },
+ "Instansi": {
+        "Status": "1",
+        "Instansi": "Universitas Muhammadiyah Malang"
+ },
+ "Media": {
+        "Facebook": "1000000482637",
+        "Line"    : "Fidz",
+        "Whatsapp": "082273543781"
+ }
+ }
+ ]
+}
+
+
+
+{AID:"1",ID: "Fidz",PwordHash:"$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad",Bio: &Bio{Nama:"Mufid Zukhruf Bahtiar",POB:"Lumajang",DOB:&Date{DD:"14",MM:"03",YYYY:"2000"},AlamatA:"Paiton",AlamatB:"Malang",TahunLulus:"2018"},Instansi:&Instansi{Status:"1",Instansi:"Universitas Muhammadiyah Malang"},Media:&Media{Facebook:"1000000482637",Line:"Fidz",Whatsapp:"082273543781"}}
+
+
+{
+AID:"1",ID: "Fidz",PwordHash:"$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad",Bio:{Nama:"Mufid Zukhruf Bahtiar",POB:"Lumajang",DOB:{DD:"14",MM:"03",YYYY:"2000"},AlamatA:"Paiton",AlamatB:"Malang",TahunLulus:"2018"},Instansi:{Status:"1",Instansi:"Universitas Muhammadiyah Malang"},Media:{Facebook:"1000000482637",Line:"Fidz",Whatsapp:"082273543781"}}
+
+
+
+--><--
+JSON FIX 
+--><--
+{
+    "AID": "2",
+    "ID": "Fidz",
+    "PwordHash": "$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad",
+    "Bio": {
+        "Nama": "Mufid Zukhruf Bahtiar",
+        "POB": "Lumajang",
+        "DOB": {
+            "dd": 14,
+            "mm": 3,
+            "yyyy": 2000
+        },
+        "AlamatA": "Paiton",
+        "AlamatB": "Malang",
+        "TahunLulus": 2018
+    },
+    "Instansi": {
+        "Status": 1,
+        "Instansi": "Universitas Muhammadiyah Malang"
+    },
+    "Media": {
+        "fbid": 1000000482633,
+        "Line": "Fidz",
+        "wa": 6282237702305
+    }
+}
+
+
+--> JSON Needed <--
+
+{
+    "AID": "2",
+    "ID": "Fidz",
+    "PwordHash": "$Pwdhashx09ci12379871ihihdkakajshdkjahdbdkhzskhad",
+    
+    "Nama": "Mufid Zukhruf Bahtiar",
+    "POB": "Lumajang",
+    "DOB": "2000-03-14",
+    "AlamatA": "Paiton",
+    "AlamatB": "Malang",
+    "TahunLulus": 2018,
+    
+    "Status": 1,
+    "Instansi": "M001",
+    
+    "fbid": 1000000482633,
+    "Line": "Fidz",
+    "wa": 6282237702305
+}
+
+
+
+--> NEED Setting
+
+[
+{"name":"nama","value":"dawdas"},
+{"name":"tempat_lahir","value":""},
+{"name":"tanggal_lahir","value":""},
+{"name":"alamat_asal","value":""},
+{"name":"alamat_tinggal","value":""},
+{"name":"tahun_lulus","value":""},
+{"name":"status","value":"1"},
+{"name":"instansi","value":"M001"},
+{"name":"instansi","value":""},
+{"name":"facebook","value":""},
+{"name":"line","value":""},
+{"name":"wa","value":""}
+]

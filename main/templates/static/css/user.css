@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: rgb(245,245,245);
+    background-size: cover;
+}
+
+nav 
+{
+    height: 35px;
+    background-color: #ffb400;
+}
+
+.heading
+{
+    height: 65px;
+    padding-left: 6%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.heading > .user-navigation
+{
+    width: 22.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading > .user-navigation > a
+{
+    text-decoration: none;
+    color: #000;
+    line-height: 26px;
+    
+    
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    
+}
+
+.heading > .user-navigation > a.active
+{
+    padding: 0 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffb400;
+}
+
+.heading > .user-navigation > a:hover
+{
+    color: #fff;
+     padding: 0 25px;
+    background-color: #ffb400;
+}
+
+.heading > .user-navigation > a > .ext
+{
+    font-size: 10px;
+    line-height: 26px;
+    background-color: #ffb400;
+    padding: 5 12;
+    border-radius: 50px;
+    color: #fff;
+    
+    transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+}
+
+.heading > .user-navigation > a:hover > .ext
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.content-all-container 
+{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    min-height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-all-container > .content-left-container
+{
+    width: 70%;
+    min-height: 50%;
+}
+
+.content-all-container > .content-left-container > .content
+{
+    height: 300px;
+    margin-bottom: 1vw;
+    background-color: #fff;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-all-container > .content-left-container > .content.main > .img-container
+{
+    height: 300px;
+    width: 300px;
+}
+
+.content-all-container > .content-left-container > .content.main > .img-container > img
+{
+    height: 100%;
+}
+
+.content-all-container > .content-left-container > .content.main > .text-container
+{
+    height: 300px;
+    width: calc(100% - 300px);
+    padding: 1.5%;
+    padding-right: 0px;
+}
+
+.content-all-container > .content-left-container > .content.main > .text-container > label[for="name"]
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content-all-container > .content-left-container > .content.main > .text-container > label[for="organization"]
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content-all-container > .content-right-container
+{
+    width: 29%;
+    min-height: 0%;
+    
+    background-color: #ccc;
+    display: block;
+}
